@@ -1,0 +1,7 @@
+gTTS
+pypdf
+
+
+Install the libraries locally:
+
+pip install gtts pypdf
