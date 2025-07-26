@@ -1,20 +1,16 @@
-# PDF to Audiobook Converter 📖➡️🎧
-A simple Python script that converts text from a PDF file into an MP3 audiobook using Google's Text-to-Speech (gTTS) library.
+# 📖 PDF to Audiobook Generator
 
-**Description:**
-This project provides a straightforward way to turn any text-based PDF document into a series of MP3 audio files. It's perfect for listening to articles, study materials, or books on the go. The script extracts text from each page, chunks it to handle API limits, and saves each chunk as a separate MP3 file.
+This Python project reads a PDF and converts the text into spoken audio using Google Text-to-Speech (`gTTS`).
 
-**Features:**
-1. Extracts text directly from PDF files.
-2. Uses Google Text-to-Speech (gTTS) for natural-sounding audio.
-3. Splits long texts into smaller chunks to avoid errors.
-4. Saves output as sequentially numbered MP3 files (e.g., Story_Audiobook_part1.mp3).
+### 🔹 Features
+- Reads all pages of a PDF
+- Splits text into chunks to handle gTTS limits
+- Saves audio as multiple `.mp3` files
 
-**Requirements**:
-Python 3.x, 
-gTTS, 
-pypdf
+### 📂 Input
+Includes a sample story: `Story.pdf`
 
-You can install the necessary libraries using pip:
+### 🚀 How to Use
 
 pip install gtts pypdf
+python main.py
